@@ -1,0 +1,128 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  background-color: var(--Very_Dark_Blue);
+  color: white;
+  font-family: 'Overpass', sans-serif;
+}
+
+/* HTML5 display-role reset for older browsers */
+:root {
+  --Orange: hsl(25, 97%, 53%);
+  --White: hsl(0, 0%, 100%);
+  --Light_Grey: hsl(217, 12%, 63%);
+  --Dark_Blue: hsl(213, 19%, 18%);
+  --Very_Dark_Blue: hsl(216, 12%, 8%);
+}
+
+#section_one_id, section {
+  width: 350px;
+  height: 400px;
+  background-color: var(--Dark_Blue);
+  margin: 50% auto;
+  border-radius: 10px;
+  padding: 1.5rem 2rem;
+}
+
+#section_one_id .star_img, section .star_img {
+  background-color: var(--Very_Dark_Blue);
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 1rem;
+  border-radius: 50%;
+}
+
+#section_one_id h2, section h2 {
+  font-family: 'Overpass', sans-serif;
+}
+
+#section_one_id p, section p {
+  font-family: 'Overpass', sans-serif;
+  line-height: 1.8rem;
+  color: var(--Light_Grey);
+}
+
+#section_one_id .rating_sec, section .rating_sec {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#section_one_id .circle, section .circle {
+  background-color: var(--Very_Dark_Blue);
+  width: 2.5em;
+  height: 2.5em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+#section_one_id .circle:hover, section .circle:hover {
+  background-color: var(--Orange);
+  color: white;
+}
+
+#section_one_id .submit, section .submit {
+  margin: 2.5rem 5%;
+  text-transform: uppercase;
+  padding: 1rem 8rem;
+  background-color: var(--Orange);
+  font-family: "Overpass";
+  border: none;
+  border-radius: 40px;
+  color: white;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+
+#section_one_id .submit:hover, section .submit:hover {
+  background-color: white;
+  color: var(--Orange);
+}
+
+#thankyou_section_id {
+  display: none;
+  text-align: center;
+}
+
+#thankyou_section_id .thankyou_section_one {
+  padding: 2rem;
+}
+
+#thankyou_section_id .thankyou_section_one h4 {
+  background-color: var(--Very_Dark_Blue);
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 1rem auto;
+  color: var(--Orange);
+  padding: 1rem 2rem;
+  border-radius: 30px;
+  letter-spacing: 1px;
+}
+/*# sourceMappingURL=main.css.map */

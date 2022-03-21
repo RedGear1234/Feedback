@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./main.css/main.css">
+  <!-- google  Fonts  -->
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,400;1,700&display=swap" rel="stylesheet"> 
+  <title>Frontend Mentor | Interactive rating component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <!-- <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style> -->
+</head>
+<body>
+
+  <section id="section_one_id">
+    <div class="star_img">
+      <img src="./images/icon-star.svg" alt="">
+    </div>
+     <h2> How did we do?</h2>
+     <p>Please let us know how we did with your support request. All feedback is appreciated 
+       to help us improve our offering!
+     </p>
+     <div class="rating_sec">
+       <p class="circle" id="one"  onclick="selectedone()">
+         1
+       </p>
+       <p class="circle" id="two" onclick="selectedtwo()">
+         2
+       </p>
+       <p class="circle" id="three" onclick="selectedthree()">
+         3
+       </p>
+       <p class="circle" id="four" onclick="selectedfour()">
+         4
+       </p>
+       <p class="circle" id="five" onclick="selectedfive()">
+         5
+       </p>
+     </div>
+       <button class="submit" id="submit_id">Submit</button>
+  </section>
+
+
+  <!-- Thank You Section  -->
+
+  <section class="thankyou_section" id="thankyou_section_id"> 
+    <div class="thankyou_section_one">
+      <img class="thankyou_img" src="./images/illustration-thank-you.svg" alt="">
+      <h4>You selected <span id="selected_num">4</span> out of 5</h4>
+      <h2>Thank you!</h2>
+      <p>We appreciate you taking the time to give a rating. If you ever need more support, 
+      don't hesitate to get in touch!</p>
+    </div>
+  </section>
+
+
+  
+
+</body>
+<script src="./App.js"></script>
+</html>
+
+  <!-- Rating state start -->
+
+  <!-- How did we do?
+
+  Please let us know how we did with your support request. All feedback is appreciated 
+  to help us improve our offering!
+
+  1 2 3 4 5
+
+  Submit
+
+  <!-- Rating state end -->
+
+  <!-- Thank you state start -->
+
+  <!-- You selected Add rating here out of 5 -->
+
+  <!-- Thank you! -->
+<!-- 
+  We appreciate you taking the time to give a rating. If you ever need more support, 
+  don’t hesitate to get in touch! --> 
+
+  <!-- Thank you state end -->
